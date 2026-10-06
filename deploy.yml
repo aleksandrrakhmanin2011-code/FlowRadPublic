@@ -1,0 +1,7 @@
+# Security
+
+FlowRad — публичный статический проект и не содержит приватных API-ключей.
+
+Не публикуйте API keys, Telegram bot tokens, passwords, private certificates, `.env` и другие секреты.
+
+Если приватный API появится позже, секрет должен храниться на серверной стороне, например в Cloudflare Worker Secrets, а не в клиентском JavaScript.
